@@ -1,2 +1,67 @@
 {% extends 'base.html.twig' %}
+{% block content %}
+    <div id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 divPresentation">
+                    <h1>// Benjamin ROY //</h1>
+                    <h2> Webmaster et webdesigner à Toulouse</h2>
+                    <div id="carousel" class="carousel slide carouselDivPresentation">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <p>WEBDESIGN SUR MESURE</p>
+                            </div>
+                            <div class="item">
+                                <p>SITE INTERNET SOLIDE</p>
+                            </div>
+                            <div class="item">
+                                <p>REFERENCEMENT ROBUSTE</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="sousPresentationDivPresentation">
+                        Vous trouverez ici toutes mes spécifications et compétences de webmaster pour mener à bien vos
+                        projets digitaux.
 
+                        Du webdesign à l'intégration, du développement au référencement : je fabrique le web pour vous!
+
+                        Création, développement et refonte de site internet à Toulouse.
+                    </h3>
+                    <button class="fp-prev">Contact</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="imageHomeAbout">
+        <p>// A propos //</p>
+    </div>
+    <div id="about">
+
+        <div class="line2">
+            <div class="container">
+                <div class="row Fresh">
+                    <div class="col-md-4 Des">
+                        <i class="fa fa-heart"></i>
+                        <h4>Fresh & Clean Design</h4>
+                        <p>Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor. feugiat </p>
+                    </div>
+                    <div class="col-md-4 Ver">
+                        <i class="fa fa-cog"></i>
+                        <h4>Very Flexible</h4>
+                        <p>Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor. feugiat </p>
+                    </div>
+                    <div class="col-md-4 Fully">
+                        <i class="fa fa-tablet"></i>
+                        <h4>Fully Responsive</h4>
+                        <p>Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor. feugiat </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $('#carousel').carousel();
+    </script>
+{% endblock %}

@@ -1,0 +1,205 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    outline: none !important;
+}
+
+@import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
+
+#home {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Arial;
+}
+
+.carousel-control{
+    background-image: none !important;
+}
+
+.glyphicon-chevron-left {
+    color: black;
+    margin-left: -300px !important;;
+}
+
+.glyphicon-chevron-right {
+    color: black;
+    margin-right: -300px !important;
+}
+
+.carouselDivPresentation{
+    margin-top: 40px;
+}
+
+.sousPresentationDivPresentation{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.divPresentation {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.divPresentation h2{
+    margin-top: 20px;
+}
+
+.divPresentation .carousel {
+    margin-top: 30px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+html {
+    background: #fff;
+}
+
+body {
+    font-family: Arial;
+}
+
+#about h1{
+    text-align: center;
+}
+
+#menu a:active {
+    color: #1fcdff;
+}
+
+#menu .active a {
+    border: 0;
+    color: #1fcdff;
+}
+
+#menu .active a:focus {
+    outline: none;
+    border: none;
+}
+
+#menu .active a:active {
+    outline: none;
+    border: none;;
+}
+
+#menu .active a:link {
+    outline: none;
+    border: none;
+}
+
+#menu .active a:visited {
+    outline: none;
+    border: none;
+}
+
+#menu li {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    border-right: 1px solid #000;
+    padding-left: 17px;
+    padding-right: 16px;
+    float: left;
+    font-family: Arial;
+    font-size: 14px;
+    color: #fff;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#menu li:last-child {
+    border-right: 0;
+    padding-right: 0px;
+}
+
+#menu {
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    border: none;
+    outline: none;
+    color: #1fcdff;
+}
+.fp-prev {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: Arial;/* put your font-family */
+    font-size: 1.75rem;
+    padding: 10px 0px;
+    width: 125px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #343a40;
+    margin-bottom: 40px;
+}
+
+.fp-prev:before {
+    color:#000;
+    content: '\f35a'; /* You should use \ and not /*/
+    font-family: "Font Awesome 5 Free"; /* This is the correct font-family*/
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    color: white;
+    left: 0px;
+    height: 100%;
+    width: 30px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 0 50% 50% 0;
+    transform: scale(0,1);
+    transform-origin: left center;
+    transition: all 0.2s linear 0s;
+}
+
+.fp-prev {
+    transition: all 0.2s linear 0s;
+}
+
+.fp-prev:hover {
+    text-indent: 30px;
+}
+
+.fp-prev:hover:before {
+    transform: scale(1,1);
+    text-indent: 0;
+ }
+
+.imageHomeAbout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    opacity:0.95;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    background: url('../images/imageHomeAbout.jpg');
+}
+
+
